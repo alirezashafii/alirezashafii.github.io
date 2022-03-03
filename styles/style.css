@@ -23,6 +23,16 @@ header {
     flex-direction: column;
     align-items: center;
 }
+.nav-father {
+    background-image: linear-gradient(25deg, #efefef, #fff);
+    width: 100vw;
+    height: auto;
+    z-index: 1;
+    position: fixed;
+    padding-bottom: 1rem;
+    box-shadow: 0 1px 5px #efefef;
+    
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -82,9 +92,9 @@ h1 {
         .header-section-one img {
             width: 95%;
             object-fit: cover;
-            margin: 4rem auto 1rem auto;
+            margin: 12rem auto 1rem auto;
             border-radius: 9px;
-            filter: grayscale(17%);
+            filter: grayscale(9%);
             transition: all .2s ease-in-out;
         }
             .header-section-one img:hover,
@@ -133,6 +143,7 @@ h1 {
     }
         .header-section-two p {
             width: 70%;
+            margin-top: 6rem;
         }
 
     .name-phone {
@@ -170,9 +181,9 @@ h1 {
         order: 1;
     }
         .header-section-one img {
-            width: 80%;
+            width: 85%;
             border-radius: 3px;
-            margin: 7rem auto 1rem auto;
+            margin: 14rem auto 1rem auto;
         }
     .header-section-two {
         width: 50%;
@@ -181,6 +192,7 @@ h1 {
     }
         .header-section-two p {
             width: 75%;
+            margin-top: 6rem;
         }
 
     .name-phone {
@@ -202,8 +214,8 @@ h1 {
             font-size: 1.6rem;
         }
     body {
-        font-size: 2rem;
-        line-height: 2.9rem;
+        font-size: 2.2rem;
+        line-height: 3rem;
     }
 }
 main {
@@ -246,10 +258,12 @@ main {
 }
 .skills h2 svg {
     width: 2.7rem;
-    transition: color .2s ease-in-out;
+    border-radius: 50%;
+    transition: all .3s ease-in-out;
 }
     .skills h2 svg:hover {
         color: #ffd700;
+        box-shadow: 0 -2px 8px 1px gold;
     }
 .skills article img {
     width: 2rem;
@@ -300,7 +314,8 @@ main {
         }
             .skills-son article:hover,
             .skills-son article:active {
-                border-bottom: 4px solid #2a3950;
+                box-shadow: 0 0 8px 2px #d3d3d3;
+                transform: skew(3deg);
             }
         .skills .skills-son-design {
             height: 23rem;
@@ -324,27 +339,17 @@ main {
         row-gap: 0;
     }
         .skills-son article {
-            width: 18rem;
+            width: 20rem;
             height: auto;
             padding: 1rem;
             transition: all .2s ease-out;
         }
             .skills-son article:hover,
             .skills-son article:active {
-                border-bottom: 4px solid #2a3950;
+                /* border-left: 4px solid #2a3950; */
+                box-shadow: 0 0 8px 2px #d3d3d3;
+                transform: skew(3deg);
             }
-        .skills .skills-son-design {
-            height: 25rem;
-        }
-        .skills .skills-son-web {
-            height: 25rem;
-        }
-        .skills .skills-son-network {
-            height: 30rem;
-        }
-        .skills .skills-son-computer {
-            height: 28rem;
-        }
         .brake {
             display: none;
         }

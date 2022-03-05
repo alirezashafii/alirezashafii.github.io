@@ -30,7 +30,6 @@ header {
     z-index: 1;
     position: fixed;
     padding-bottom: 1rem;
-    box-shadow: 0 1px 5px #efefef;
     
 }
 nav {
@@ -45,7 +44,7 @@ nav img {
 }
     nav img:hover,
     nav img:active {
-        transform: skew(9deg);
+        transform: scale(1.09);
     }
 .navbar {
     width: 60%;
@@ -145,7 +144,6 @@ h1 {
             width: 70%;
             margin-top: 6rem;
         }
-
     .name-phone {
         display: none;
     }
@@ -360,6 +358,7 @@ section {
     background: url("../images/shiny.svg") no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -392,9 +391,6 @@ section {
                 box-shadow: 0 0 8px 3px #047857;
                 caret-color: #047857;
             }
-            form input[type="email"]:invalid {
-                border: 1px solid #f00;
-            }
         form textarea {
             margin-bottom: 1rem;
             width: 100%;
@@ -408,6 +404,7 @@ section {
                 caret-color: #047857;
             }
         form button {
+            width: 6rem;
             cursor: pointer;
             padding: .5rem 1rem;
             font-weight: 500;
@@ -464,12 +461,12 @@ footer {
   }
     .linkedin:hover,
     .linkedin:active {
-        color: #00f;
+        color: #1e1ee9;
         transform: scale(1.2);
     }
     .twitter:hover,
     .twitter:active {
-        color: #40bdee;
+        color: #2fa3d1;
         transform: scale(1.2);
     }
     .github:hover,

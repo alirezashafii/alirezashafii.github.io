@@ -16,7 +16,7 @@
     <div class="nav-father">
         <nav class="container">
             <a href="#">
-            <img src="/images/logo.png" alt="logo">
+            <img src="/images/logo.svg" alt="logo">
             </a>
             <div class="navbar">
                 <ul>
@@ -27,10 +27,9 @@
                         <a href="#skills">Skills</a>
                     </li>
                     <li>
-                        <a href="mailto:alirezashafii@protonmail.com">
-                            <svg class="mail" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                        <a href="#mailme">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mail" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                             </svg>
                         </a>
                     </li>
@@ -122,13 +121,13 @@
             </div>
         </div>
     </main>
-    <section>
+    <section id="mailme">
         <form action="https://formspree.io/f/xknybblv" method="POST">
             <label for="full-name">Full Name</label>
                 <input type="text" name="name" id="full-name" placeholder="First and Last" required>    
-            <label for="email">Your email:</label>
+            <label for="email">Email Address:</label>
                 <input id="email" type="email" name="email" placeholder="Your email address" required>
-            <label for="message">Your message:</label>
+            <label for="message">Message:</label>
                 <textarea style="resize: none;" id="message" name="message" rows="5" placeholder="Your message" required></textarea>
             <button type="submit">Send</button>
         </form>

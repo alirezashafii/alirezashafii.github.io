@@ -47,7 +47,7 @@ nav img {
         transform: scale(1.09);
     }
 .navbar {
-    width: 60%;
+    width: 63%;
     display: inline-block;
 }
 .navbar ul li {
@@ -57,11 +57,10 @@ nav img {
     .navbar li:hover,
     .navbar li:active {
         transform: scale(1.09);
-        border-bottom: 1px solid #000;
     }
     .navbar ul {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
     }
     .navbar li a {
@@ -70,8 +69,8 @@ nav img {
         font-weight: 700;
     }
 .navbar .mail {
-    width: 4rem;
-    height: 4rem;
+    width: 7rem;
+    height: 7rem;
     color: #000;
 }
 h1 {
@@ -117,6 +116,7 @@ h1 {
     }
     nav {
         padding-left: 1.5rem;
+        padding-right: 1.5rem;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -130,6 +130,7 @@ h1 {
     }
     nav {
         padding-left: 2rem;
+        padding-right: 2rem;
     }
     .header-section-one {
         width: 50%;
@@ -173,6 +174,7 @@ h1 {
     }
     nav {
         padding-left: 4rem;
+        padding-right: 4rem;
     }
     .header-section-one {
         width: 50%;
@@ -227,9 +229,6 @@ main {
 .about svg {
     width: 2.7rem;
 }
-    .about svg:hover {
-        color: #49b220;
-    }
     .about h2 {
         font-weight: 700;
         margin-bottom: 1.5rem;

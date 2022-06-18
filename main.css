@@ -38,9 +38,9 @@ body {
     top: 0%;
   }
 @media (prefers-color-scheme: light) {
-    body {background: #F1F5F9; color: #121314;}
+    body {background: #F8FAFC; color: #121314;}
 }
 @media (prefers-color-scheme: dark) {
-    body {background: #000; color: #F1F5F9;}
-    a {color: #F1F5F9;}
+    body {background: #121314; color: #F8FAFC;}
+    a {color: #F8FAFC;}
 }
